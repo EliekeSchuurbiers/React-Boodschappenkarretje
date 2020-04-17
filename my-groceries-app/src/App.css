@@ -1,0 +1,56 @@
+body{
+  background-color: #e4d5d5;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+header {
+  background-color: #282c34;
+  min-height: 100px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+li{
+  list-style: none;
+  text-align: left;
+  margin-left: 30%;
+  margin-right: 35%;
+  
+}
+.lijstje{
+  background-color: #7e9c74;
+  text-align: center;
+}
+.lijstje li:nth-child(odd){
+  background-color: #52664c;
+  color: #fff
+}
+
+.Winkelwagen{
+  background-color: #8ab8b8;
+  text-align: center;
+}
+
+.Winkelwagen li:nth-child(odd){
+  background-color: #577474;
+  color: #fff
+}
+.clearButton{
+background-color: #95cccc;
+height: 30px;
+border-radius: 10px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.clearButton:hover{
+  background-color: #7e9c74;
+  font-weight: bold;
+  width: 100px;
+
+}
+
+.Toevoegen{
+  background-color: #fd9c74;
+  text-align: center;
+}
